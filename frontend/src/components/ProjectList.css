@@ -1,0 +1,51 @@
+.project-creator {
+  padding: 20px;
+}
+
+.open-dialog-btn {
+    background-color: #ffb74d;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-box {
+  background-color: #302e2e;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field,
+.textarea-field {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.textarea-field {
+  height: 80px;
+  resize: none;
+}
+
+
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
